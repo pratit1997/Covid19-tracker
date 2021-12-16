@@ -12,5 +12,7 @@ public class Covid19DataProvider {
 
     StateData getStateData(String State){
 restTemplate.getForObject(url,StateData.class);
+
+//Start worKing from here
     }
 }
