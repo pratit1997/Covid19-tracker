@@ -8,8 +8,8 @@ public class StateData {
              ,deaths
              ,totalConfirmed;
 
-     public StateData() {
-     }
+//     public StateData() {
+//     }
 
      @Override
      public String toString() {
@@ -23,14 +23,14 @@ public class StateData {
                   '}';
      }
 
-     public StateData(String loc, int confirmedCasesIndian, int confirmedCasesForeign, int discharged, int deaths, int totalConfirmed) {
-          this.loc = loc;
-          this.confirmedCasesIndian = confirmedCasesIndian;
-          this.confirmedCasesForeign = confirmedCasesForeign;
-          this.discharged = discharged;
-          this.deaths = deaths;
-          this.totalConfirmed = totalConfirmed;
-     }
+//     public StateData(String loc, int confirmedCasesIndian, int confirmedCasesForeign, int discharged, int deaths, int totalConfirmed) {
+//          this.loc = loc;
+//          this.confirmedCasesIndian = confirmedCasesIndian;
+//          this.confirmedCasesForeign = confirmedCasesForeign;
+//          this.discharged = discharged;
+//          this.deaths = deaths;
+//          this.totalConfirmed = totalConfirmed;
+//     }
 
      public String getLoc() {
           return loc;

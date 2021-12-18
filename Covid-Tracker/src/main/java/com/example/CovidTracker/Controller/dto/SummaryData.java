@@ -1,5 +1,7 @@
 package com.example.CovidTracker.Controller.dto;
 
+import java.time.ZonedDateTime;
+
 public class SummaryData {
     int total,
             confirmedCasesIndian,
@@ -8,7 +10,15 @@ public class SummaryData {
             deaths,
             confirmedButLocationUnidentified;
 
+    public ZonedDateTime getUpdateTime() {
+        return updateTime;
+    }
 
+    public void setUpdateTime(ZonedDateTime updateTime) {
+        this.updateTime = updateTime;
+    }
+
+    private ZonedDateTime updateTime;
     public int getTotal() {
         return total;
     }
